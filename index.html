@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calci</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+    <table>
+        <tr>
+        <td colspan="3"><input type="text" id="fname" name="fname" ></td>
+        <td><input class="bleft" id="cls" type="button" onclick="cls()" value="C"></td>            
+        </tr>
+        <tr>
+            
+            <td><input class="bleft" id="one" type="button" value="1" onkeydown="myFunction(event)" onclick="dis('1')"></td>
+            <td><input class="bleft" id="two" type="button" value="2" onkeydown="myFunction(event)" onclick="dis('2')"></td>
+            <td><input class="bleft" id="three" type="button" value="3" onkeydown="myFunction(event)" onclick="dis('3')"></td>
+            <td><input class="bleft" id="cls" type="button" value="/" onkeydown="myFunction(event)" onclick="dis('/')"></td>
+        </tr>
+        <tr>
+            <td><input class="bleft" id="four" type="button" value="4" onkeydown="myFunction(event)" onclick="dis('4')"></td>
+            <td><input class="bleft" id="five" type="button" value="5" onkeydown="myFunction(event)" onclick="dis('5')"></td>
+            <td><input class="bleft" id="six" type="button" value="6" onkeydown="myFunction(event)" onclick="dis('6')"></td>
+            <td><input class="bleft" id="cls" type="button" value="*" onkeydown="myFunction(event)" onclick="dis('*')"></td>
+        </tr>
+        <tr>
+            <td><input class="bleft" id="sub" type="button" value="7" onkeydown="myFunction(event)" onclick="dis('7')"></td>
+            <td><input class="bleft" id="sub" type="button" value="8" onkeydown="myFunction(event)" onclick="dis('8')"></td>
+            <td><input class="bleft" id="sub" type="button" value="9" onkeydown="myFunction(event)" onclick="dis('9')"></td>
+            <td><input class="bleft" id="cls" type="button" value="-" onkeydown="myFunction(event)" onclick="dis('-')"></td>
+        </tr>
+        <tr>
+            <td><input class="bleft" id="sub" type="button" value="0" onkeydown="myFunction(event)" onclick="dis('0')"></td>
+            <td><input class="bleft" id="sub" type="button" value="." onkeydown="myFunction(event)" onclick="dis('.')"></td>
+            <td><input class="bleft" id="sub" type="button" value="=" onclick="solve()"></td>
+            <td><input class="bleft" id="cls" type="button" value="+" onkeydown="myFunction(event)" onclick="dis('+')"></td>
+        </tr>
+      </table>
+      
+
+</body>
+</html>
